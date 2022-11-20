@@ -1,0 +1,23 @@
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0px 1px 4px rgb(128, 128, 128);
+}
+.nav-items {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-items > li {
+  padding: 10px;
+}
+
+.nav-logo {
+  width: 80px;
+}
+
+.page-footer {
+  background-color: gray;
+}

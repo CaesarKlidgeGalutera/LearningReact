@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 25px;
+  height: 90px;
+  background: #21222a;
+}
+
+nav > p {
+  color: #deebf8;
+  font-size: 20px;
+  color: #ffff;
+}
+
+body {
+  margin: 0;
+  background: #282d35;
+}
+
+body h1,
+ul {
+  color: #ffff;
+}
+
+.container {
+  font-family: "Inter", sans-serif;
+}
+
+.header-title {
+  display: flex;
+  object-fit: cover;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.header-title > h1 {
+  display: flex;
+  color: #61dafb;
+  flex-direction: row;
+  font-size: 30px;
+}
+
+.page-logo {
+  width: 50px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+img {
+  width: 100%;
+}
+
+.main-content_details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main-content h1 {
+  margin-left: 50px;
+  margin-bottom: 0px;
+  font-size: 50px;
+  letter-spacing: -0.05em;
+  font-weight: 700;
+  font-size: 39.06px;
+}
+
+.ul-div {
+  font-size: 20px;
+  margin-left: 60px;
+  line-height: 50px;
+}
+
+li::marker {
+  color: #61dafb;
+  font-size: 1.4rem;
+}
+
+main {
+  background-image: url("./reactjsIcon2.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+}

@@ -1,16 +1,16 @@
-const myPage = (
-  <div>
-    <img src="React-icon.png" width="40px"></img>
-    <h1>Fun facts about React</h1>
-    <ul>
-      <li>Was first released in 2013</li>
-      <li>Was originally created by Jordan Walke</li>
-      <li>My Name is Caesar Klidge C. Galutera</li>
-    </ul>
-  </div>
-);
+//import ReactDOM from 'react-dom';
 
-ReactDOM.render(myPage, document.getElementById("root"));
+import Header from "./Header";
+import Footer from "./Footer";
+
+ReactDOM.render(
+  <div>
+    <Header />
+    <Page />
+    <Footer />
+  </div>,
+  document.getElementById("root")
+);
 
 /*We import React from "react" because the JSX syntax is defined in "react"
 
@@ -21,4 +21,8 @@ Imperative - tell the computer step-by-step how to do anything
 
 Composable - It means that you can make small ui and put it in different components to make a build a website.
  It will also make you website maintainable
+
+ React component are reasuable codes, they are created so our application is more maintainable.
+ it is a function that returms React elements
+
 */
