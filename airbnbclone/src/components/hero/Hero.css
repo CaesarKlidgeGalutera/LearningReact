@@ -3,6 +3,7 @@
 .Hero {
   display: flex;
   flex-direction: column;
+  padding-bottom: 0px;
 }
 
 .Hero-img {
@@ -28,7 +29,7 @@
 }
 
 .content__description {
-  padding: 16px 0px 49px 36px;
+  padding: 16px 0px 0px 36px;
   font-size: 16px;
   font-weight: 300;
   line-height: 18px;

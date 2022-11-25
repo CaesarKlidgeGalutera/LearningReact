@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.MainCard {
+  padding: 49px 0px 30px 37px;
+  line-height: 8px;
+}
+
+.desc {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+
+.fa-solid {
+  color: #fe395c;
+}
+
+.price_cost {
+  font-weight: bold;
+}
