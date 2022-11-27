@@ -43,7 +43,20 @@ function App() {
   );
 }
 
-//props help us accomplish change contents of our code without hard coding it -- reuse
+//props help us accomplish change contents of our code without hard coding it - makes it resuable
 
+//we can pass a prop into a component by
+//<MyComponent myProp="***"/>
 
+/*
+we can recieve a prop in a component in this example
+
+function Navbar(props){
+  return(
+    <header>
+      {props.myProp}
+    </header>
+  )
+}
+*/
 export default App;
