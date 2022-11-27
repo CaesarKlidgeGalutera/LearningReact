@@ -1,18 +1,18 @@
 import "./Contact.css";
 
-function Contact() {
+function Contact({ img, name, contactNum, email }) {
   return (
     <div className="contacs">
       <div className="contact-card">
-        <img src="" alt="" />
-        <h3>Mr. Whiskerson</h3>
+        <img src={img} alt="" />
+        <h3>{name}</h3>
         <div className="info-group">
           <img src="" alt="" />
-          <p>(212) 555-1234</p>
+          <p>{contactNum}</p>
         </div>
         <div className="info-group">
           <img src="" alt="" />
-          <p> mr.whiskaz@catnap.meow</p>
+          <p> {email}</p>
         </div>
       </div>
     </div>
