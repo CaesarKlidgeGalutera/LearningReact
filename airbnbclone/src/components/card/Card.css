@@ -3,6 +3,7 @@
 .MainCard {
   padding: 49px 0px 30px 37px;
   line-height: 8px;
+  display: inline-block;
 }
 
 .desc {
