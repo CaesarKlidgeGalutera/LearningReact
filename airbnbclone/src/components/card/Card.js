@@ -1,18 +1,18 @@
 import "./Card.css";
-import image12 from "../images/image12.svg";
 
-function Card() {
+function Card(props) {
+  console.log(props);
   return (
     <div className="MainCard">
       <div className="card card1">
-        <img src={image12} alt="pic1"></img>
+        <img src={props.img} alt="pic1"></img>
         <p className=" desc desc--rating">
-          <i class="fa-solid fa-star"></i> 5.0{" "}
-          <span className="rating--star">(6) &#183; USA</span>
+          <i class="fa-solid fa-star"></i> {props.rating}{" "}
+          <span className="rating--star">{props.reviewCount} &#183; USA</span>
         </p>
-        <p className="desc desc--title">Life lessons with Katie Zafares</p>
+        <p className="desc desc--title">{props.title}</p>
         <p className="desc desc--price">
-          <span className="price_cost">From $136 </span>/ person
+          <span className="price_cost">{props.price} </span>/ person
         </p>
       </div>
     </div>
